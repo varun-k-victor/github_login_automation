@@ -20,10 +20,6 @@ Just run this script and enter your github username and password when prompted.
 
 This script will log into your github account in a new firefox session.This script only works with Firefox browser.
 
-# Compatibility
-
-Works on both windows and linux.
-
 # Warning
 
 Use this script at your own risk.
