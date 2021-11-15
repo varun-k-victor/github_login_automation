@@ -4,7 +4,11 @@
 
 # About the script
 
-Just run this script and enter your github username and password when prompted.This script automatically logs into your github account.(only for FIREFOX users)
+This script automatically logs into your github account.
+
+# How to use
+
+Just run this script and enter your github username and password when prompted.
 
 # Prerequisite
 
@@ -14,7 +18,7 @@ Just run this script and enter your github username and password when prompted.T
 
 # Note
 
-This script will log into your github account in a new firefox session.
+This script will log into your github account in a new firefox session.This script only works with Firefox browser.
 
 # Compatibility
 
