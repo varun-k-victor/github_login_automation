@@ -16,6 +16,10 @@ Just run this script and enter your github username and password when prompted.T
 
 This script will log into your github account in a new firefox session.
 
+# Compatibility
+
+Works on both windows and linux.
+
 # Warning
 
 Use this script at your risk.
