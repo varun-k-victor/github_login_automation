@@ -2,7 +2,7 @@
 
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" width="100" height="100" />
 
-# How does this script works?
+# About the script
 
 Just run this script and enter your github username and password when prompted.This script automatically logs into your github account.(only for FIREFOX users)
 
