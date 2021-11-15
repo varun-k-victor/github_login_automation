@@ -26,4 +26,4 @@ Works on both windows and linux.
 
 # Warning
 
-Use this script at your risk.
+Use this script at your own risk.
