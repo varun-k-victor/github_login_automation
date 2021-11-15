@@ -9,6 +9,7 @@ Just run this script and enter your github username and password when prompted.T
 # Prerequisite
 
 -> Geckodriver
+
 -> Selenium
 
 # Note
