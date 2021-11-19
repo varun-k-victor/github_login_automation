@@ -1,5 +1,6 @@
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
+from selenium.common.exceptions import WebDriverException
 from time import sleep
 
 def userin_username():
@@ -17,15 +18,19 @@ def main():
 	sleep(3)
 	driver=webdriver.Firefox()
 	sleep(3)
-	driver.get('https://github.com/login')
-	sleep(3)
-	username=driver.find_element_by_name('login')
-	username.send_keys(USERNAME)
-	sleep(3)
-	password=driver.find_element_by_name('password')
-	password.send_keys(PASSWORD)
-	sleep(3)
-	password.send_keys(Keys.ENTER)
+	try:
+		driver.get('https://github.com/login')
+	except WebDriverException:
+		print("Check your network connection")
+	else:
+		sleep(3)
+		username=driver.find_element_by_name('login')
+		username.send_keys(USERNAME)
+		sleep(3)
+		password=driver.find_element_by_name('password')
+		password.send_keys(PASSWORD)
+		sleep(3)
+		password.send_keys(Keys.ENTER)
 	
 if __name__=="__main__":
 	main()
